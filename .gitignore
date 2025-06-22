@@ -191,7 +191,6 @@ Desktop.ini
 *.weights
 
 # Папки с моделями
-models/
 checkpoints/
 weights/
 saved_models/
@@ -202,7 +201,6 @@ model_checkpoints/
 !checkpoints/.gitkeep
 
 # Данные
-data/
 dataset/
 datasets/
 audio_data/
@@ -244,6 +242,8 @@ config.json
 secrets.json
 .secrets
 credentials.json
+# Игнорировать базу пользователей
+data/user_database/users.json
 
 # Исключение для примеров конфигураций
 !config.example.json
