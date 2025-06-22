@@ -1,0 +1,463 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be added to the global gitignore or merged into this project gitignore.  For a PyTorch
+#  research project, it is typically recommended to ignore JetBrains directory entirely:
+.idea/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Windows
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Модели и веса (большие файлы)
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.weights
+
+# Папки с моделями
+models/
+checkpoints/
+weights/
+saved_models/
+model_checkpoints/
+
+# Исключение для структуры папок (пустые папки)
+!models/.gitkeep
+!checkpoints/.gitkeep
+
+# Данные
+data/
+dataset/
+datasets/
+audio_data/
+voice_data/
+raw_data/
+processed_data/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+
+# Исключение для примеров данных
+!data/examples/
+!data/samples/
+
+# Логи
+logs/
+*.log
+*.out
+log_*
+wandb/
+mlruns/
+tensorboard_logs/
+tb_logs/
+
+# Временные файлы
+temp/
+tmp/
+cache/
+.cache/
+*.cache
+
+# Конфигурационные файлы (содержат секреты)
+config.ini
+config.yaml
+config.json
+secrets.json
+.secrets
+credentials.json
+
+# Исключение для примеров конфигураций
+!config.example.json
+!config.template.yaml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Профилирование
+*.prof
+profile_output/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Pytest
+.pytest_cache/
+
+# Intel OpenVINO
+openvino_models/
+*.xml
+*.bin
+*.mapping
+
+# ONNX модели
+*.onnx
+
+# TensorRT
+*.engine
+*.plan
+
+# Hugging Face cache
+.cache/huggingface/
+transformers_cache/
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# DVC
+.dvc/
+*.dvc
+
+# Документация
+docs/build/
+docs/_build/
+
+# Backup файлы
+*.bak
+*.backup
+*~
+
+# Файлы редакторов
+*.swp
+*.swo
+.vim/
+.vimrc
+
+# Результаты экспериментов
+results/
+outputs/
+experiments/
+runs/
+
+# Графики и визуализации
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# Исключение для статических изображений
+!static/images/
+!docs/images/
+
+# Профили производительности
+*.perf
+*.prof
+
+# Файлы сборки
+build/
+dist/
+
+# Локальные настройки IDE
+.vscode/settings.json
+.idea/workspace.xml
+
+# Файлы Docker (если используется)
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes secrets
+secrets.yaml
+*-secret.yaml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ansible
+*.retry
+
+# Временные файлы загрузки
+downloads/
+tmp_downloads/
+
+# Файлы блокировки
+*.lock
+poetry.lock
+Pipfile.lock
+
+# Исключение для requirements.txt
+!requirements.txt
+!requirements*.txt
+
+# Файлы сертификатов
+*.pem
+*.key
+*.crt
+*.cert
+
+# Файлы базы данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Архивы
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Исключение для необходимых архивов
+!datasets/*.zip
+!examples/*.zip
+
+# =============================================================================
+# СИСТЕМА РАСПОЗНАВАНИЯ ГОЛОСОВ - СПЕЦИФИЧНЫЕ ФАЙЛЫ
+# =============================================================================
+
+# Данные и модели системы
+data/datasets/common_voice_ru/
+data/datasets/golos/
+data/datasets/demo_voices/
+data/processed/
+data/user_database/embeddings/
+data/user_database/metadata/
+data/models/
+
+# Обученные модели
+*.pth
+*.pkl
+*.pickle
+*.npz
+*.npy
+
+# Отчеты для курсовой работы
+thesis_report.json
+thesis_summary.txt
+performance_*.json
+results_*.csv
+
+# Аудиофайлы тестирования
+test_data/*.wav
+test_data/*.mp3
+test_data/*.flac
+test_data/*.m4a
+
+# Графики и визуализации
+plots/
+figures/
+confusion_matrix_*.png
+timing_distribution_*.png
+confidence_analysis_*.png
+
+# Логи системы
+logs/
+voice_system_*.log
+
+# Временные файлы обработки
+*.tmp
+*.temp
+*.bak
+*.backup
+.audio_cache/
+.feature_cache/
+
+# Кэш библиотек
+.librosa_cache/
+.torch_cache/
+
+# Сохранить структуру папок (пустые папки с .gitkeep)
+!data/.gitkeep
+!data/datasets/.gitkeep
+!data/processed/.gitkeep
+!data/models/.gitkeep
+!data/user_database/.gitkeep
+!data/user_database/embeddings/.gitkeep
+!data/user_database/metadata/.gitkeep
+!test_data/.gitkeep
+!logs/.gitkeep
+
+# Образцы аудио для демо (можно оставить)
+!samples/
+!samples/*.wav
+!examples/
+!examples/*.wav
+PROJECT_SUMMARY.md
